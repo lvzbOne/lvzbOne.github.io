@@ -177,6 +177,33 @@
             
 <div data-pagefind-ignore="all">
 
+<div class="post-preview">
+    <a href="http://lvzbOne.github.io/post/second/">
+        <h2 class="post-title">
+            Second
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            再次学习Git 本次学习的目标主要是争对实战常用的命令进行滚瓜烂熟，达到进来就能参考，各种场景案例的模拟
+使用git的最小化配置 使用git时，需进行最小化配置 用户和email信息，常见案例如下。git config &ndash;list 列出配置环境
+类似命令：git config &ndash;global , git config &ndash;local, git config &ndash;system.
+git config &ndash;local ##只对某个仓库有效,切换到另外一个仓库失效 git config &ndash;global ##当前用户的所有仓库有效,工作当中最常用 git config &ndash;system ##系统的所有用户,几乎不用 local的在.git/config里面；global的在个人home目录下的.gitconfig里面；system应该在git安装目录的下
+PS C:\Users\lvzb3&gt; git config --global user.name &#39;lvzb31988&#39; PS C:\Users\lvzb3&gt; git config --global user.email &#39;lvzb31988@163.com&#39; PS C:\Users\lvzb3&gt; git config --global --list user.name=lvzb31988 user.email=lvzb31988@163.com 创建git仓库初始化的2种方式 第一种场景，把已经有的项目纳入到git管理：进入到已有项目的目录，执行 git init 第二种场景，新创建的的项目直接被git管理: git init your_project。执行命令后，进入目录里面就会有.git的隐藏文件 $ git init git_learn_init Initialized empty Git repository in D:/temp/git_learn_init/.
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by My New Hugo Site on Friday, May 31, 2024
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
 </div>
 
             
@@ -351,4 +378,10 @@
     });
 </script>
 
+
+
+
+
+
+</body>
 </html>

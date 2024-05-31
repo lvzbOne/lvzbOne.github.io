@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="My New Hugo Site">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="http://lvzbOne.github.io//">
+    <meta property="twitter:image" content="http://lvzbOne.github.io//" />
+    
+
+    
+    <meta name="title" content="Second" />
+    <meta property="og:title" content="Second" />
+    <meta property="twitter:title" content="Second" />
+    
+
+    
+    <meta name="description" content="">
+    <meta property="og:description" content="" />
+    <meta property="twitter:description" content="" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>Second | </title>
+
+    <link rel="canonical" href="/post/second/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">My New Hugo Site</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                    
+                    
+		    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/')
+    }
+</style>
+
+<header class="intro-header" >
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                    </div>
+                    <h1>Second</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                    My New Hugo Site
+                             
+                            on 
+                            Friday, May 31, 2024
+                            
+                            
+                            
+                            
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <h1 id="再次学习git">再次学习Git</h1>
+<blockquote>
+<p>本次学习的目标主要是争对实战常用的命令进行滚瓜烂熟，达到进来就能参考，各种场景案例的模拟</p>
+</blockquote>
+<h3 id="使用git的最小化配置">使用git的最小化配置</h3>
+<blockquote>
+<p>使用git时，需进行最小化配置 用户和email信息，常见案例如下。git config &ndash;list 列出配置环境</p>
+<p>类似命令：git config &ndash;global , git config &ndash;local, git config &ndash;system.</p>
+<ul>
+<li>git  config &ndash;local       ##只对某个仓库有效,切换到另外一个仓库失效</li>
+<li>git  config &ndash;global    ##当前用户的所有仓库有效,工作当中最常用</li>
+<li>git  config &ndash;system  ##系统的所有用户,几乎不用</li>
+</ul>
+<p>local的在.git/config里面；global的在个人home目录下的.gitconfig里面；system应该在git安装目录的下</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>PS C:\Users\lvzb3&gt; git config --global user.name <span style="color:#e6db74">&#39;lvzb31988&#39;</span>
+</span></span><span style="display:flex;"><span>PS C:\Users\lvzb3&gt; git config --global user.email <span style="color:#e6db74">&#39;lvzb31988@163.com&#39;</span>
+</span></span><span style="display:flex;"><span>PS C:\Users\lvzb3&gt; git config --global --list
+</span></span><span style="display:flex;"><span>user.name=lvzb31988
+</span></span><span style="display:flex;"><span>user.email=lvzb31988@163.com
+</span></span></code></pre></div><h3 id="创建git仓库初始化的2种方式">创建git仓库初始化的2种方式</h3>
+<ol>
+<li>第一种场景，把已经有的项目纳入到git管理：进入到已有项目的目录，执行 <code>git init</code></li>
+<li>第二种场景，新创建的的项目直接被git管理: <code>git init  your_project</code>。执行命令后，进入目录里面就会有.git的隐藏文件</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$ git init git_learn_init
+</span></span><span style="display:flex;"><span>Initialized empty Git repository <span style="color:#66d9ef">in</span> D:/temp/git_learn_init/.git/
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># 第二种方式</span>
+</span></span><span style="display:flex;"><span>$ cd git_learn_not_init/
+</span></span><span style="display:flex;"><span>$ git init
+</span></span><span style="display:flex;"><span>Initialized empty Git repository <span style="color:#66d9ef">in</span> D:/temp/git_learn_not_init/.git/
+</span></span></code></pre></div><h3 id="认识工作区暂存区和本地仓库">认识工作区暂存区和本地仓库</h3>
+<blockquote>
+<ol>
+<li>工作区就是指我们当前的操作环境</li>
+<li>暂存区就是，当我们在当前环境更改了后，想暂时保存到某个位置时但是又不想正式提交，就可以通过<code>git add XXX</code> 把想要暂存的内容提交到暂存区里，以便我们可以后续需要的时候从暂存区里取出来</li>
+<li>git本地仓库，则是当我们感觉这个文件可以正式提交时，就<strong>可以把文件从暂存区提交到git本地仓库，在git里文件一定是被先提交到暂存区里后，才能被提交到本地仓库</strong>，否则就会报错提示。</li>
+</ol>
+</blockquote>
+<ul>
+<li>
+<p><code>git add -u</code>：将文件的修改、文件的删除，添加到暂存区。</p>
+</li>
+<li>
+<p><code>git add .</code>   ：将文件的修改，文件的新建，添加到暂存区。</p>
+</li>
+<li>
+<p>git status  :  查看当前git 仓库下的文件状态？</p>
+</li>
+<li>
+<p>git commit -m &lsquo;本次提交的备注和描述内容&rsquo; ： 提交暂存区的文件到本地仓库</p>
+</li>
+</ul>
+<p>下面内容是创建了一个temp.txt, 尝试没有使用 git add 添加到暂存区，直接往本地仓库提交，就提示 ：<code>nothing added to commit but untracked files present (use &quot;git add&quot; to track)</code>(没有添加任何要提交的内容，但存在未跟踪的文件（使用“git add”进行跟踪）)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$ touch temp.txt
+</span></span><span style="display:flex;"><span>$ echo <span style="color:#e6db74">&#34;Hello World Git Learning&#34;</span> &gt;&gt; temp.txt
+</span></span><span style="display:flex;"><span>$ cat temp.txt
+</span></span><span style="display:flex;"><span>Hello World Git Learning
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>$ git status
+</span></span><span style="display:flex;"><span>On branch master
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>No commits yet
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Untracked files<span style="color:#960050;background-color:#1e0010">:</span>
+</span></span><span style="display:flex;"><span>  (use <span style="color:#e6db74">&#34;git add &lt;file&gt;...&#34;</span> to include <span style="color:#66d9ef">in</span> what will be committed)
+</span></span><span style="display:flex;"><span>        temp.txt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>nothing added to commit but untracked files present (use <span style="color:#e6db74">&#34;git add&#34;</span> to track)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>lvzb3@LAPTOP-3E5DGGO8 MINGW64 /d/temp/git_learn_not_init (master)
+</span></span><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#39;test  add temp.txt to git local repository &#39;</span>
+</span></span><span style="display:flex;"><span>On branch master
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Initial commit
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Untracked files<span style="color:#960050;background-color:#1e0010">:</span>
+</span></span><span style="display:flex;"><span>  (use <span style="color:#e6db74">&#34;git add &lt;file&gt;...&#34;</span> to include <span style="color:#66d9ef">in</span> what will be committed)
+</span></span><span style="display:flex;"><span>        temp.txt
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>nothing added to commit but untracked files present (use <span style="color:#e6db74">&#34;git add&#34;</span> to track)
+</span></span></code></pre></div><h2 id="本地分支和远程分支">本地分支和远程分支</h2>
+<ul>
+<li>基于远程分支创建本地分支: <code> git checkout -b local/develop origin/develop</code>,最好创建同名的分支这样就能直接使用git push</li>
+<li>本地分支直接推送到远程分支: <code> git push -u origin b-test:test</code> 这样会讲本地分支推送远程分支并且创建远程分支 test</li>
+<li>本地分支推送到远程分支: <code>git push origin local/develop:develop</code></li>
+<li>本地分支和远程分支进行关联（绑定）：</li>
+<li>查看本地分支和远程分支关系: <code>git branch -vv</code></li>
+<li>切换分支： <code>git checkout 分支名称</code></li>
+<li>分支合并：先切换到某个commit少的分支 然后执行 <code>git merge local/feature</code>，处理冲突然后git add,git commit，git push 即可</li>
+<li>分支删除：<code>git branch -d &lt;branch-name&gt;</code>, <code>git branch -D &lt;branch-name&gt;</code> 大D是强制删除，d是分支的文件都提交了才能删除 , 删除远程分支：<code>git push origin --delete local/feature</code></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>如果远程分支不存在，我能把本地分支推送到远程分支，并且自动在远程分支创建好我这个分支吗
+</span></span><span style="display:flex;"><span>ChatGPT
+</span></span><span style="display:flex;"><span>是的，你可以通过使用 git push 命令将本地分支推送到远程分支，并自动在远程仓库创建该分支。以下是操作步骤：
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>确保你已经完成了在本地创建分支并进行了相关的提交操作。
+</span></span><span style="display:flex;"><span>使用以下命令将本地分支推送到远程分支，并在远程仓库创建该分支：
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span>git push -u origin local/feature:feature
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>上述命令中，-u 参数用于设置本地分支与远程分支的关联关系，以便之后的 git push 命令可以自动将本地分支推送到远程分支。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>通过执行上述命令，Git 将会把本地分支 local/feature 推送到远程分支 feature，如果远程分支不存在，Git 会自动在远程仓库创建该分支。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>请确保你有足够的权限进行推送操作，并且远程仓库允许创建分支的操作。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>如果你遇到任何问题，请提供更多详细信息，我将尽力帮助你解决。
+</span></span></code></pre></div><h2 id="版本回退和恢复">版本回退和恢复</h2>
+<h2 id="创建git的-tag">创建git的 tag</h2>
+<blockquote>
+<p>简而言之，git tag能帮我们打上一个标签，通过该标签我们能下载当时commit的代码，并且我们也可以通过tag在gitee或者github里面创建release 版本，甚至上传响应的源码包</p>
+</blockquote>
+<ul>
+<li>tag 是 Git 版本库的一个快照，指向某个 commit 的指针</li>
+<li>tag 的存在，是因为我们需要这种标记的功能。目前的项目开发中，当发布版本时 tag 就派上用场了。例如 v1.0.1，v1.0.2…
+另外，git 提供了 tag 的增删改查一系列操作，在 tag 的使用上，可谓非常之方便。</li>
+<li>tag 和 branch 有点相似，但是它们的职责分工和本质都是不同的。
+<ul>
+<li>tag 对应某次 commit, 是一个点，是不可移动的</li>
+<li>branch 对应一系列 commit，是很多点连成的一根线，有一个HEAD 指针，是可以依靠 HEAD 指针移动的。</li>
+<li>改动代码用 branch ,不改动只查看用 tag。</li>
+<li>tag 和 branch 的相互配合使用，有时候起到非常方便的效果，例如 已经发布了 v1.0 v2.0 v3.0 三个版本，这个时候，我突然想不改现有代码的前提下，在 v2.0 的基础上加个新功能，作为 v4.0 发布。就可以 检出 v2.0 的代码作为一个 branch ，然后作为开发分支。</li>
+</ul>
+</li>
+<li><strong>注意tag 创建后，push到远程仓库需要额外的push tag</strong></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#75715e"># 创建 一个tag XXX 为commit的hash，不带-a时默认是最新的当前分支</span>
+</span></span><span style="display:flex;"><span>git tag -a v0.5 xxxxxx
+</span></span><span style="display:flex;"><span>git tag 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 删除本地tag</span>
+</span></span><span style="display:flex;"><span>git tag -d v0.5
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 推送本地tag到远程仓库</span>
+</span></span><span style="display:flex;"><span>git push origin tag v1.0
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## 删除远程仓库的tag</span>
+</span></span><span style="display:flex;"><span>git push origin <span style="color:#960050;background-color:#1e0010">:</span>&lt;oldTagName&gt;
+</span></span></code></pre></div><p><a href="https://blog.csdn.net/qq_32452623/article/details/73949509">参考博文: 使用 Tag 标记你的代码</a></p>
+
+
+                
+
+                
+
+                
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+
+                
+                
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">                  
+                    
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; My New Hugo Site 2024
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

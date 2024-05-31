@@ -6,7 +6,14 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 31 May 2024 18:52:52 +0800</lastBuildDate>
     <atom:link href="http://lvzbOne.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Second</title>
+      <link>http://lvzbOne.github.io/post/second/</link>
+      <pubDate>Fri, 31 May 2024 18:52:52 +0800</pubDate>
+      <guid>http://lvzbOne.github.io/post/second/</guid>
+      <description>再次学习Git 本次学习的目标主要是争对实战常用的命令进行滚瓜烂熟，达到进来就能参考，各种场景案例的模拟&#xA;使用git的最小化配置 使用git时，需进行最小化配置 用户和email信息，常见案例如下。git config &amp;ndash;list 列出配置环境&#xA;类似命令：git config &amp;ndash;global , git config &amp;ndash;local, git config &amp;ndash;system.&#xA;git config &amp;ndash;local ##只对某个仓库有效,切换到另外一个仓库失效 git config &amp;ndash;global ##当前用户的所有仓库有效,工作当中最常用 git config &amp;ndash;system ##系统的所有用户,几乎不用 local的在.git/config里面；global的在个人home目录下的.gitconfig里面；system应该在git安装目录的下&#xA;PS C:\Users\lvzb3&amp;gt; git config --global user.name &amp;#39;lvzb31988&amp;#39; PS C:\Users\lvzb3&amp;gt; git config --global user.email &amp;#39;lvzb31988@163.com&amp;#39; PS C:\Users\lvzb3&amp;gt; git config --global --list user.name=lvzb31988 user.email=lvzb31988@163.com 创建git仓库初始化的2种方式 第一种场景，把已经有的项目纳入到git管理：进入到已有项目的目录，执行 git init 第二种场景，新创建的的项目直接被git管理: git init your_project。执行命令后，进入目录里面就会有.git的隐藏文件 $ git init git_learn_init Initialized empty Git repository in D:/temp/git_learn_init/.</description>
+    </item>
   </channel>
 </rss>
