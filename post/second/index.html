@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
+<html lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
-    <meta property="og:site_name" content="My New Hugo Site">
+    <meta property="og:site_name" content="ZhiBiao&#39;s Note">
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="http://lvzbOne.github.io//">
-    <meta property="twitter:image" content="http://lvzbOne.github.io//" />
+    <meta property="og:image" content="img/blg-top.jpg">
+    <meta property="twitter:image" content="img/blg-top.jpg" />
     
 
     
@@ -21,9 +21,9 @@
     
 
     
-    <meta name="description" content="">
-    <meta property="og:description" content="" />
-    <meta property="twitter:description" content="" />
+    <meta name="description" content="争对实战常用的命令进行滚瓜烂熟，达到进来就能参考，各种场景案例的模拟：">
+    <meta property="og:description" content="争对实战常用的命令进行滚瓜烂熟，达到进来就能参考，各种场景案例的模拟：" />
+    <meta property="twitter:description" content="争对实战常用的命令进行滚瓜烂熟，达到进来就能参考，各种场景案例的模拟：" />
     
 
     
@@ -31,10 +31,10 @@
     
     
 
-    <meta name="keyword"  content="">
+    <meta name="keyword"  content="吕志彪, 起凤, lvzhibiao, Lvzhibiao, Qifeng, , 起凤的网络日志, 起凤的博客, Qifeng Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Second | </title>
+    <title>Second | 吕起凤的博客 | Lvzhibiao Blog</title>
 
     <link rel="canonical" href="/post/second/">
 
@@ -88,7 +88,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">My New Hugo Site</a>
+            <a class="navbar-brand" href="/">ZhiBiao&#39;s Note</a>
         </div>
 
         
@@ -101,9 +101,31 @@
                     </li>
                     
                         
+                        <li>
+                            <a href="/categories/life/">life</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/notes/">notes</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/tech/">tech</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/tips/">tips</a>
+                        </li>
+                        
                     
                     
 		    
+                        <li><a href="/archive//">ARCHIVE</a></li>
+                    
+                        <li><a href="/notes//">NOTES</a></li>
+                    
+                        <li><a href="/about//">ABOUT</a></li>
+                    
 		            <li>
                         <a href="/search"><i class="fa fa-search"></i></a>
 		           </li>
@@ -148,7 +170,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/')
+        background-image: url('/img/blg-top.jpg')
     }
 </style>
 
@@ -160,17 +182,21 @@
                 <div class="post-heading">
                     <div class="tags">
                         
+                        <a class="tag" href="/tags/git" title="Git">
+                            Git
+                        </a>
+                        
                     </div>
                     <h1>Second</h1>
-                    <h2 class="subheading"></h2>
+                    <h2 class="subheading">再次复习Git</h2>
                     <span class="meta">
                         
                             Posted by 
                             
-                                    My New Hugo Site
+                                Zhibiao
                              
                             on 
-                            Friday, May 31, 2024
+                            Wednesday, May 31, 2023
                             
                             
                             
@@ -211,22 +237,22 @@
 </ul>
 <p>local的在.git/config里面；global的在个人home目录下的.gitconfig里面；system应该在git安装目录的下</p>
 </blockquote>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>PS C:\Users\lvzb3&gt; git config --global user.name <span style="color:#e6db74">&#39;lvzb31988&#39;</span>
-</span></span><span style="display:flex;"><span>PS C:\Users\lvzb3&gt; git config --global user.email <span style="color:#e6db74">&#39;lvzb31988@163.com&#39;</span>
-</span></span><span style="display:flex;"><span>PS C:\Users\lvzb3&gt; git config --global --list
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">PS </span>C:\Users\lvzb3&gt; git config --global user.name <span style="color:#f1fa8c">&#39;lvzb31988&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">PS </span>C:\Users\lvzb3&gt; git config --global user.email <span style="color:#f1fa8c">&#39;lvzb31988@163.com&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#8be9fd;font-style:italic">PS </span>C:\Users\lvzb3&gt; git config --global --list
 </span></span><span style="display:flex;"><span>user.name=lvzb31988
-</span></span><span style="display:flex;"><span>user.email=lvzb31988@163.com
+</span></span><span style="display:flex;"><span>user.email=lvzb31988<span style="color:#8be9fd;font-style:italic">@163</span>.com
 </span></span></code></pre></div><h3 id="创建git仓库初始化的2种方式">创建git仓库初始化的2种方式</h3>
 <ol>
 <li>第一种场景，把已经有的项目纳入到git管理：进入到已有项目的目录，执行 <code>git init</code></li>
 <li>第二种场景，新创建的的项目直接被git管理: <code>git init  your_project</code>。执行命令后，进入目录里面就会有.git的隐藏文件</li>
 </ol>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$ git init git_learn_init
-</span></span><span style="display:flex;"><span>Initialized empty Git repository <span style="color:#66d9ef">in</span> D:/temp/git_learn_init/.git/
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># 第二种方式</span>
-</span></span><span style="display:flex;"><span>$ cd git_learn_not_init/
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$ git init git_learn_init
+</span></span><span style="display:flex;"><span>Initialized empty Git repository <span style="color:#ff79c6">in</span> D:/temp/git_learn_init/.git/
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># 第二种方式</span>
+</span></span><span style="display:flex;"><span>$ <span style="color:#8be9fd;font-style:italic">cd </span>git_learn_not_init/
 </span></span><span style="display:flex;"><span>$ git init
-</span></span><span style="display:flex;"><span>Initialized empty Git repository <span style="color:#66d9ef">in</span> D:/temp/git_learn_not_init/.git/
+</span></span><span style="display:flex;"><span>Initialized empty Git repository <span style="color:#ff79c6">in</span> D:/temp/git_learn_not_init/.git/
 </span></span></code></pre></div><h3 id="认识工作区暂存区和本地仓库">认识工作区暂存区和本地仓库</h3>
 <blockquote>
 <ol>
@@ -250,9 +276,9 @@
 </li>
 </ul>
 <p>下面内容是创建了一个temp.txt, 尝试没有使用 git add 添加到暂存区，直接往本地仓库提交，就提示 ：<code>nothing added to commit but untracked files present (use &quot;git add&quot; to track)</code>(没有添加任何要提交的内容，但存在未跟踪的文件（使用“git add”进行跟踪）)</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$ touch temp.txt
-</span></span><span style="display:flex;"><span>$ echo <span style="color:#e6db74">&#34;Hello World Git Learning&#34;</span> &gt;&gt; temp.txt
-</span></span><span style="display:flex;"><span>$ cat temp.txt
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>$ touch temp.txt
+</span></span><span style="display:flex;"><span>$ <span style="color:#8be9fd;font-style:italic">echo </span><span style="color:#f1fa8c">&#34;Hello World Git Learning&#34;</span> &gt;&gt; temp.txt
+</span></span><span style="display:flex;"><span>$ <span style="color:#8be9fd;font-style:italic">cat </span>temp.txt
 </span></span><span style="display:flex;"><span>Hello World Git Learning
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>$ git status
@@ -260,23 +286,23 @@
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>No commits yet
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Untracked files<span style="color:#960050;background-color:#1e0010">:</span>
-</span></span><span style="display:flex;"><span>  (use <span style="color:#e6db74">&#34;git add &lt;file&gt;...&#34;</span> to include <span style="color:#66d9ef">in</span> what will be committed)
+</span></span><span style="display:flex;"><span>Untracked files:
+</span></span><span style="display:flex;"><span>  (use <span style="color:#f1fa8c">&#34;git add &lt;file&gt;...&#34;</span> to include <span style="color:#ff79c6">in</span> what will be committed)
 </span></span><span style="display:flex;"><span>        temp.txt
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>nothing added to commit but untracked files present (use <span style="color:#e6db74">&#34;git add&#34;</span> to track)
+</span></span><span style="display:flex;"><span>nothing added to commit but untracked files present (use <span style="color:#f1fa8c">&#34;git add&#34;</span> to track)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>lvzb3@LAPTOP-3E5DGGO8 MINGW64 /d/temp/git_learn_not_init (master)
-</span></span><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#39;test  add temp.txt to git local repository &#39;</span>
+</span></span><span style="display:flex;"><span>lvzb3<span style="color:#8be9fd;font-style:italic">@LAPTOP</span>-3E5DGGO8 MINGW64 /d/temp/git_learn_not_init (master)
+</span></span><span style="display:flex;"><span>$ git commit -m <span style="color:#f1fa8c">&#39;test  add temp.txt to git local repository &#39;</span>
 </span></span><span style="display:flex;"><span>On branch master
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>Initial commit
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>Untracked files<span style="color:#960050;background-color:#1e0010">:</span>
-</span></span><span style="display:flex;"><span>  (use <span style="color:#e6db74">&#34;git add &lt;file&gt;...&#34;</span> to include <span style="color:#66d9ef">in</span> what will be committed)
+</span></span><span style="display:flex;"><span>Untracked files:
+</span></span><span style="display:flex;"><span>  (use <span style="color:#f1fa8c">&#34;git add &lt;file&gt;...&#34;</span> to include <span style="color:#ff79c6">in</span> what will be committed)
 </span></span><span style="display:flex;"><span>        temp.txt
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>nothing added to commit but untracked files present (use <span style="color:#e6db74">&#34;git add&#34;</span> to track)
+</span></span><span style="display:flex;"><span>nothing added to commit but untracked files present (use <span style="color:#f1fa8c">&#34;git add&#34;</span> to track)
 </span></span></code></pre></div><h2 id="本地分支和远程分支">本地分支和远程分支</h2>
 <ul>
 <li>基于远程分支创建本地分支: <code> git checkout -b local/develop origin/develop</code>,最好创建同名的分支这样就能直接使用git push</li>
@@ -288,7 +314,7 @@
 <li>分支合并：先切换到某个commit少的分支 然后执行 <code>git merge local/feature</code>，处理冲突然后git add,git commit，git push 即可</li>
 <li>分支删除：<code>git branch -d &lt;branch-name&gt;</code>, <code>git branch -D &lt;branch-name&gt;</code> 大D是强制删除，d是分支的文件都提交了才能删除 , 删除远程分支：<code>git push origin --delete local/feature</code></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>如果远程分支不存在，我能把本地分支推送到远程分支，并且自动在远程分支创建好我这个分支吗
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>如果远程分支不存在，我能把本地分支推送到远程分支，并且自动在远程分支创建好我这个分支吗
 </span></span><span style="display:flex;"><span>ChatGPT
 </span></span><span style="display:flex;"><span>是的，你可以通过使用 git push 命令将本地分支推送到远程分支，并自动在远程仓库创建该分支。以下是操作步骤：
 </span></span><span style="display:flex;"><span>
@@ -323,23 +349,74 @@
 </li>
 <li><strong>注意tag 创建后，push到远程仓库需要额外的push tag</strong></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#75715e"># 创建 一个tag XXX 为commit的hash，不带-a时默认是最新的当前分支</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span><span style="color:#6272a4"># 创建 一个tag XXX 为commit的hash，不带-a时默认是最新的当前分支</span>
 </span></span><span style="display:flex;"><span>git tag -a v0.5 xxxxxx
 </span></span><span style="display:flex;"><span>git tag 
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">## 删除本地tag</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4">## 删除本地tag</span>
 </span></span><span style="display:flex;"><span>git tag -d v0.5
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">## 推送本地tag到远程仓库</span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4">## 推送本地tag到远程仓库</span>
 </span></span><span style="display:flex;"><span>git push origin tag v1.0
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">## 删除远程仓库的tag</span>
-</span></span><span style="display:flex;"><span>git push origin <span style="color:#960050;background-color:#1e0010">:</span>&lt;oldTagName&gt;
+</span></span><span style="display:flex;"><span><span style="color:#6272a4">## 删除远程仓库的tag</span>
+</span></span><span style="display:flex;"><span>git push origin :&lt;oldTagName&gt;
 </span></span></code></pre></div><p><a href="https://blog.csdn.net/qq_32452623/article/details/73949509">参考博文: 使用 Tag 标记你的代码</a></p>
 
 
                 
+                
+<div class="entry-shang text-center">
+    
+	    <p>「真诚赞赏，手留余香」</p>
+	
+	<button class="zs show-zs btn btn-bred">赞赏支持</button>
+</div>
+<div class="zs-modal-bg"></div>
+<div class="zs-modal-box">
+	<div class="zs-modal-head">
+		<button type="button" class="close">×</button>
+		<span class="author"><a href="http://localhost:1313/"><img src="/img/favicon.png" />ZhiBiao&#39;s Note</a></span>
+        
+	        <p class="tip"><i></i><span>真诚赞赏，手留余香</span></p>
+		
+ 
+	</div>
+	<div class="zs-modal-body">
+		<div class="zs-modal-btns">
+			<button class="btn btn-blink" data-num="2">2元</button>
+			<button class="btn btn-blink" data-num="5">5元</button>
+			<button class="btn btn-blink" data-num="10">10元</button>
+			<button class="btn btn-blink" data-num="50">50元</button>
+			<button class="btn btn-blink" data-num="100">100元</button>
+			<button class="btn btn-blink" data-num="1">任意金额</button>
+		</div>
+		<div class="zs-modal-pay">
+			<button class="btn btn-bred" id="pay-text">2元</button>
+			<p>使用<span id="pay-type">微信</span>扫描二维码完成支付</p>
+			<img src="/img/reward/wechat-2.png"  id="pay-image"/>
+		</div>
+	</div>
+	<div class="zs-modal-footer">
+		<label><input type="radio" name="zs-type" value="wechat" class="zs-type" checked="checked"><span ><span class="zs-wechat"><img src="/img/reward/wechat-btn.png"/></span></label>
+		<label><input type="radio" name="zs-type" value="alipay" class="zs-type" class="zs-alipay"><img src="/img/reward/alipay-btn.png"/></span></label>
+	</div>
+</div>
+<script type="text/javascript" src="/js/reward.js"></script>
 
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/first/" data-toggle="tooltip" data-placement="top" title="First">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
                 
 
                 
@@ -372,8 +449,83 @@
 
                 
                 
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/docker" title="docker">
+                            docker
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/istio" title="istio">
+                            istio
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/kubernetes" title="kubernetes">
+                            kubernetes
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/microservice" title="microservice">
+                            microservice
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/security" title="security">
+                            security
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/service-mesh" title="service mesh">
+                            service mesh
+                        </a>
+                        
+                        
+                        
+                        <a href="/tags/tips" title="tips">
+                            tips
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
 
                 
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://zhaozhihan.com">Linda的博客</a></li>
+                        
+                    </ul>
+                </section>
                 
             </div>
         </div>
@@ -389,6 +541,15 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">                  
                     
+                    <li>
+                        <a href="mailto:lvzb31988@163.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
                     
                     
                     
@@ -396,11 +557,47 @@
 
 		            
                     
+                    <li>
+                        <a target="_blank" href="/your%20wechat%20qr%20code%20image">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-weixin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/lvzbOne">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
                     
                     
                     
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/yourlinkedinid">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
                     
                     
+                    <li>
+                        <a target="_blank" href="https://stackoverflow.com/users/yourstackoverflowid">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
                     
                     
                     
@@ -410,9 +607,26 @@
             
             
            
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="ZhiBiao&#39;s Note" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+            
              </ul>
 		<p class="copyright text-muted">
-                    Copyright &copy; My New Hugo Site 2024
+                    Copyright &copy; ZhiBiao&#39;s Note 2024
+                    
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
                     
                 </p>
             </div>
