@@ -10,20 +10,20 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="/img/docker.jpg">
-    <meta property="twitter:image" content="/img/docker.jpg" />
+    <meta property="og:image" content="img/blg-top.jpg">
+    <meta property="twitter:image" content="img/blg-top.jpg" />
     
 
     
-    <meta name="title" content="如何配置docker使用HTTP代理" />
-    <meta property="og:title" content="如何配置docker使用HTTP代理" />
-    <meta property="twitter:title" content="如何配置docker使用HTTP代理" />
+    <meta name="title" content="First" />
+    <meta property="og:title" content="First" />
+    <meta property="twitter:title" content="First" />
     
 
     
-    <meta name="description" content="如何配置docker使用HTTP代理">
-    <meta property="og:description" content="如何配置docker使用HTTP代理" />
-    <meta property="twitter:description" content="如何配置docker使用HTTP代理" />
+    <meta name="description" content="起凤，程序员, 开源爱好者，生活探险家 | 这里是 起凤 的博客，与你一起发现更大的世界。">
+    <meta property="og:description" content="起凤，程序员, 开源爱好者，生活探险家 | 这里是 起凤 的博客，与你一起发现更大的世界。" />
+    <meta property="twitter:description" content="起凤，程序员, 开源爱好者，生活探险家 | 这里是 起凤 的博客，与你一起发现更大的世界。" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="吕志彪, 起凤, lvzhibiao, Lvzhibiao, Qifeng, , 起凤的网络日志, 起凤的博客, Qifeng Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>如何配置docker使用HTTP代理 | 吕起凤的博客 | Lvzhibiao Blog</title>
+    <title>First | 吕起凤的博客 | Lvzhibiao Blog</title>
 
-    <link rel="canonical" href="/2018/03/13/use-docker-behind-http-proxy/">
+    <link rel="canonical" href="/2023/05/31/first/">
 
     
     
@@ -113,10 +113,6 @@
                             <a href="/categories/tech/">tech</a>
                         </li>
                         
-                        <li>
-                            <a href="/categories/tips/">tips</a>
-                        </li>
-                        
                     
                     
 		    
@@ -170,7 +166,7 @@
 
 <style type="text/css">
     header.intro-header {
-        background-image: url('/img/docker.jpg')
+        background-image: url('/img/blg-top.jpg')
     }
 </style>
 
@@ -182,25 +178,21 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/tips" title="Tips">
-                            Tips
-                        </a>
-                        
-                        <a class="tag" href="/tags/docker" title="Docker">
-                            Docker
+                        <a class="tag" href="/tags/git" title="Git">
+                            Git
                         </a>
                         
                     </div>
-                    <h1>如何配置docker使用HTTP代理</h1>
+                    <h1>First</h1>
                     <h2 class="subheading"></h2>
                     <span class="meta">
                         
                             Posted by 
                             
-                                赵化冰
+                                Zhibiao
                              
                             on 
-                            Tuesday, March 13, 2018
+                            Wednesday, May 31, 2023
                             
                             
                             
@@ -226,28 +218,12 @@
                 post-container">
 
                 
-                <h2 id="ubuntu">Ubuntu</h2>
-<h3 id="设置docker使用http-proxy">设置docker使用http proxy</h3>
-<pre tabindex="0"><code>sudo /etc/default/docker
+                <h2 id="hello-world">Hello World!</h2>
+<p>
+  <img src="https://preview.cloud.189.cn/image/imageAction?param=7DE8ACE17F36E5063090DAB66C74CBEDE0607E8BDC1D5AF7DFF88245493C0E0DD1FC5E316793A08651FA619E7401EFC1421E1C0B2630EA0CC8B48CE87808231FAFD7E626CBF2C21D9D3315F1EF6458A699AF654AF1135DCDECF67E7ABEA8075DE7FE4A5FF7FA603515A9F6CC56BB1585" alt="aaa">
 
-export http_proxy=&#34;http://127.0.0.1:3128/&#34;
-export https_proxy=&#34;http://127.0.0.1:3128/&#34;
-export HTTP_PROXY=&#34;http://127.0.0.1:3128/&#34;
-export HTTPS_PROXY=&#34;http://127.0.0.1:3128/&#34;
-</code></pre><h3 id="加载配置并重启docker">加载配置并重启docker</h3>
-<pre tabindex="0"><code>sudo service docker restart
-</code></pre><h2 id="centos">CentOS</h2>
-<h3 id="设置docker使用http-proxy-1">设置docker使用http proxy</h3>
-<pre tabindex="0"><code>sudo mkdir -p /etc/systemd/system/docker.service.d
+</p>
 
-echo &#39;
-[Service]
-Environment=&#34;HTTP_PROXY=http://proxy.foo.bar.com:80/&#34;
-&#39; | sudo tee /etc/systemd/system/docker.service.d/http-proxy.conf
-</code></pre><h3 id="加载配置并重启docker-1">加载配置并重启docker</h3>
-<pre tabindex="0"><code>sudo systemctl daemon-reload
-sudo systemctl restart docker
-</code></pre>
 
                 
                 
@@ -296,13 +272,13 @@ sudo systemctl restart docker
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2018/02/09/vim-tips/" data-toggle="tooltip" data-placement="top" title="Vim Tips">&larr;
+                        <a href="/2018/05/01/may-day-jiulonghu/" data-toggle="tooltip" data-placement="top" title="川西秘境探险">&larr;
                             Previous Post</a>
                     </li>
                     
                     
                     <li class="next">
-                        <a href="/2018/03/29/what-is-service-mesh-and-istio/" data-toggle="tooltip" data-placement="top" title="谈谈微服务架构中的基础设施：Service Mesh与Istio">Next
+                        <a href="/2023/05/31/Second/" data-toggle="tooltip" data-placement="top" title="Second">Next
                             Post &rarr;</a>
                     </li>
                     
@@ -346,61 +322,9 @@ sudo systemctl restart docker
                         
                         
                         
-                        
-                        
-                        <a href="/tags/docker" title="docker">
-                            docker
-                        </a>
-                        
-                        
-                        
                         <a href="/tags/git" title="git">
                             git
                         </a>
-                        
-                        
-                        
-                        
-                        
-                        <a href="/tags/istio" title="istio">
-                            istio
-                        </a>
-                        
-                        
-                        
-                        <a href="/tags/kubernetes" title="kubernetes">
-                            kubernetes
-                        </a>
-                        
-                        
-                        
-                        <a href="/tags/microservice" title="microservice">
-                            microservice
-                        </a>
-                        
-                        
-                        
-                        
-                        
-                        <a href="/tags/security" title="security">
-                            security
-                        </a>
-                        
-                        
-                        
-                        <a href="/tags/service-mesh" title="service mesh">
-                            service mesh
-                        </a>
-                        
-                        
-                        
-                        <a href="/tags/tips" title="tips">
-                            tips
-                        </a>
-                        
-                        
-                        
-                        
                         
                         
                         
