@@ -6,20 +6,48 @@
     <description>Recent content in Posts on ZhiBiao&#39;s Note</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 May 2023 18:52:52 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lvzbOne.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Second</title>
+      <title>Java 调用 Groovy 脚本的简单案例</title>
+      <link>https://lvzbOne.github.io/post/2024-03-14-javacallgroovy/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://lvzbOne.github.io/post/2024-03-14-javacallgroovy/</guid>
+      <description>Java 调用 Groovy 脚本的简单案例 前言 Groovy 和 Java 都是使用 JVM 虚拟机进行解释执行的。工作中会遇到一些场景，需要对特殊的业务进行解耦。那段业务可能会经常变动，如果</description>
+    </item>
+    <item>
+      <title>自如电费均摊问题</title>
+      <link>https://lvzbOne.github.io/post/2024-03-05-zirujuntan/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://lvzbOne.github.io/post/2024-03-05-zirujuntan/</guid>
+      <description>3月份搬了次家，嫌麻烦租了自如，第一个月的电费账单出来了，由于我是中途搬进去的，于是乎就好奇他会如何计算均摊，这个月电费账单出来了，算了下发</description>
+    </item>
+    <item>
+      <title>Git 笔记复习</title>
       <link>https://lvzbOne.github.io/2023/05/31/Second/</link>
       <pubDate>Wed, 31 May 2023 18:52:52 +0800</pubDate>
       <guid>https://lvzbOne.github.io/2023/05/31/Second/</guid>
       <description>再次学习Git 本次学习的目标主要是争对实战常用的命令进行滚瓜烂熟，达到进来就能参考，各种场景案例的模拟 使用git的最小化配置 使用git时，需</description>
     </item>
     <item>
-      <title>First</title>
-      <link>https://lvzbOne.github.io/2023/05/31/first/</link>
-      <pubDate>Wed, 31 May 2023 14:48:36 +0800</pubDate>
-      <guid>https://lvzbOne.github.io/2023/05/31/first/</guid>
+      <title>GitHub&#43;Hugo搭建个人博客</title>
+      <link>https://lvzbOne.github.io/post/2022-05-06-hugobuild/</link>
+      <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://lvzbOne.github.io/post/2022-05-06-hugobuild/</guid>
+      <description>GitHub个人博客搭建 前置条件 采用方案：GitHub + Hugo来实现 不要使用windows 的powershell窗口，使用GitBash来</description>
+    </item>
+    <item>
+      <title>一个球从100米的高度自由落下，每次落地后反弹回原来高度的一半，然后再落下的问题</title>
+      <link>https://lvzbOne.github.io/2022/05/06/mathboldownreq/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://lvzbOne.github.io/2022/05/06/mathboldownreq/</guid>
+      <description>题目： 一个球从100米的高度自由落下，每次落地后反弹回原来高度的一半，然后再落下，求它在第10次落 地时，共经过多少米？第10次反弹的高度是多</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>https://lvzbOne.github.io/2022/03/31/first/</link>
+      <pubDate>Thu, 31 Mar 2022 14:48:36 +0800</pubDate>
+      <guid>https://lvzbOne.github.io/2022/03/31/first/</guid>
       <description>Hello World! </description>
     </item>
     <item>
