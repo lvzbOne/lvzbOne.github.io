@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on ZhiBiao&#39;s Note</title>
-    <link>https://lvzbOne.github.io/tags/hugo/</link>
+    <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in Hugo on ZhiBiao&#39;s Note</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 May 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lvzbOne.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub&#43;Hugo搭建个人博客</title>
-      <link>https://lvzbOne.github.io/post/2022-05-06-hugobuild/</link>
+      <link>http://localhost:1313/post/2022-05-06-hugobuild/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lvzbOne.github.io/post/2022-05-06-hugobuild/</guid>
+      <guid>http://localhost:1313/post/2022-05-06-hugobuild/</guid>
       <description>GitHub个人博客搭建 前置条件 采用方案：GitHub + Hugo来实现 不要使用windows 的powershell窗口，使用GitBash来</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math on ZhiBiao&#39;s Note</title>
-    <link>https://lvzbOne.github.io/tags/math/</link>
+    <link>http://localhost:1313/tags/math/</link>
     <description>Recent content in Math on ZhiBiao&#39;s Note</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Apr 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lvzbOne.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一个球从100米的高度自由落下，每次落地后反弹回原来高度的一半，然后再落下的问题</title>
-      <link>https://lvzbOne.github.io/2022/05/06/mathboldownreq/</link>
+      <link>http://localhost:1313/2022/05/06/mathboldownreq/</link>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lvzbOne.github.io/2022/05/06/mathboldownreq/</guid>
+      <guid>http://localhost:1313/2022/05/06/mathboldownreq/</guid>
       <description>题目： 一个球从100米的高度自由落下，每次落地后反弹回原来高度的一半，然后再落下，求它在第10次落 地时，共经过多少米？第10次反弹的高度是多</description>
     </item>
   </channel>

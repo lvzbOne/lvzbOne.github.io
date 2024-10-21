@@ -2,83 +2,89 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lvzbOne.github.io/categories/</loc>
+    <loc>http://lvzbOne.github.io/categories/</loc>
+    <lastmod>2024-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://lvzbOne.github.io/categories/life/</loc>
+    <lastmod>2024-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://lvzbOne.github.io/post/</loc>
+    <lastmod>2024-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://lvzbOne.github.io/tags/private/</loc>
+    <lastmod>2024-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://lvzbOne.github.io/tags/</loc>
+    <lastmod>2024-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://lvzbOne.github.io/</loc>
+    <lastmod>2024-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://lvzbOne.github.io/2024/10/21/effective-work-rule/</loc>
+    <lastmod>2024-10-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://lvzbOne.github.io/2024/09/18/unemploymentday1/</loc>
     <lastmod>2024-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/categories/life/</loc>
-    <lastmod>2024-09-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lvzbOne.github.io/post/</loc>
-    <lastmod>2024-09-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lvzbOne.github.io/</loc>
-    <lastmod>2024-09-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lvzbOne.github.io/2024/09/18/unemploymentday1/</loc>
-    <lastmod>2024-09-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lvzbOne.github.io/2024/08/22/maindgrowth/</loc>
+    <loc>http://lvzbOne.github.io/2024/08/22/maindgrowth/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/2024/06/14/life-think/</loc>
+    <loc>http://lvzbOne.github.io/2024/06/14/life-think/</loc>
     <lastmod>2024-06-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/tags/groovy/</loc>
+    <loc>http://lvzbOne.github.io/tags/groovy/</loc>
     <lastmod>2024-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/tags/java/</loc>
+    <loc>http://lvzbOne.github.io/tags/java/</loc>
     <lastmod>2024-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/post/2024-03-14-javacallgroovy/</loc>
+    <loc>http://lvzbOne.github.io/post/2024-03-14-javacallgroovy/</loc>
     <lastmod>2024-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/tags/</loc>
+    <loc>http://lvzbOne.github.io/categories/tech/</loc>
     <lastmod>2024-03-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/categories/tech/</loc>
-    <lastmod>2024-03-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://lvzbOne.github.io/tags/life/</loc>
+    <loc>http://lvzbOne.github.io/tags/life/</loc>
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/post/2024-03-05-zirujuntan/</loc>
+    <loc>http://lvzbOne.github.io/post/2024-03-05-zirujuntan/</loc>
     <lastmod>2024-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/tags/git/</loc>
+    <loc>http://lvzbOne.github.io/tags/git/</loc>
     <lastmod>2023-05-31T18:52:52+08:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/2023/05/31/Second/</loc>
+    <loc>http://lvzbOne.github.io/2023/05/31/Second/</loc>
     <lastmod>2023-05-31T18:52:52+08:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/post/2022-05-06-hugobuild/</loc>
+    <loc>http://lvzbOne.github.io/post/2022-05-06-hugobuild/</loc>
     <lastmod>2022-05-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/tags/hugo/</loc>
+    <loc>http://lvzbOne.github.io/tags/hugo/</loc>
     <lastmod>2022-05-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/tags/math/</loc>
+    <loc>http://lvzbOne.github.io/tags/math/</loc>
     <lastmod>2022-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/2022/05/06/mathboldownreq/</loc>
+    <loc>http://lvzbOne.github.io/2022/05/06/mathboldownreq/</loc>
     <lastmod>2022-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/2022/03/31/first/</loc>
+    <loc>http://lvzbOne.github.io/2022/03/31/first/</loc>
     <lastmod>2022-03-31T14:48:36+08:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/tags/travel/</loc>
+    <loc>http://lvzbOne.github.io/tags/travel/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/2018/05/01/may-day-jiulonghu/</loc>
+    <loc>http://lvzbOne.github.io/2018/05/01/may-day-jiulonghu/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://lvzbOne.github.io/about/</loc>
+    <loc>http://lvzbOne.github.io/about/</loc>
   </url><url>
-    <loc>https://lvzbOne.github.io/notes/</loc>
+    <loc>http://lvzbOne.github.io/notes/</loc>
   </url><url>
-    <loc>https://lvzbOne.github.io/search/placeholder/</loc>
+    <loc>http://lvzbOne.github.io/search/placeholder/</loc>
   </url><url>
-    <loc>https://lvzbOne.github.io/archive/</loc>
+    <loc>http://lvzbOne.github.io/archive/</loc>
   </url><url>
-    <loc>https://lvzbOne.github.io/search/</loc>
+    <loc>http://lvzbOne.github.io/search/</loc>
   </url>
 </urlset>

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on ZhiBiao&#39;s Note</title>
-    <link>https://lvzbOne.github.io/categories/tech/</link>
+    <link>http://localhost:1313/categories/tech/</link>
     <description>Recent content in Tech on ZhiBiao&#39;s Note</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lvzbOne.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Java 调用 Groovy 脚本的简单案例</title>
-      <link>https://lvzbOne.github.io/post/2024-03-14-javacallgroovy/</link>
+      <link>http://localhost:1313/post/2024-03-14-javacallgroovy/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://lvzbOne.github.io/post/2024-03-14-javacallgroovy/</guid>
+      <guid>http://localhost:1313/post/2024-03-14-javacallgroovy/</guid>
       <description>Java 调用 Groovy 脚本的简单案例 前言 Groovy 和 Java 都是使用 JVM 虚拟机进行解释执行的。工作中会遇到一些场景，需要对特殊的业务进行解耦。那段业务可能会经常变动，如果</description>
     </item>
     <item>
       <title>Git 笔记复习</title>
-      <link>https://lvzbOne.github.io/2023/05/31/Second/</link>
+      <link>http://localhost:1313/2023/05/31/Second/</link>
       <pubDate>Wed, 31 May 2023 18:52:52 +0800</pubDate>
-      <guid>https://lvzbOne.github.io/2023/05/31/Second/</guid>
+      <guid>http://localhost:1313/2023/05/31/Second/</guid>
       <description>再次学习Git 本次学习的目标主要是争对实战常用的命令进行滚瓜烂熟，达到进来就能参考，各种场景案例的模拟 使用git的最小化配置 使用git时，需</description>
     </item>
     <item>
       <title>GitHub&#43;Hugo搭建个人博客</title>
-      <link>https://lvzbOne.github.io/post/2022-05-06-hugobuild/</link>
+      <link>http://localhost:1313/post/2022-05-06-hugobuild/</link>
       <pubDate>Fri, 06 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://lvzbOne.github.io/post/2022-05-06-hugobuild/</guid>
+      <guid>http://localhost:1313/post/2022-05-06-hugobuild/</guid>
       <description>GitHub个人博客搭建 前置条件 采用方案：GitHub + Hugo来实现 不要使用windows 的powershell窗口，使用GitBash来</description>
     </item>
     <item>
       <title>一个球从100米的高度自由落下，每次落地后反弹回原来高度的一半，然后再落下的问题</title>
-      <link>https://lvzbOne.github.io/2022/05/06/mathboldownreq/</link>
+      <link>http://localhost:1313/2022/05/06/mathboldownreq/</link>
       <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://lvzbOne.github.io/2022/05/06/mathboldownreq/</guid>
+      <guid>http://localhost:1313/2022/05/06/mathboldownreq/</guid>
       <description>题目： 一个球从100米的高度自由落下，每次落地后反弹回原来高度的一半，然后再落下，求它在第10次落 地时，共经过多少米？第10次反弹的高度是多</description>
     </item>
   </channel>
