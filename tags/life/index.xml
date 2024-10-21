@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life on ZhiBiao&#39;s Note</title>
-    <link>http://localhost:1313/tags/life/</link>
+    <link>https://lvzbOne.github.io/tags/life/</link>
     <description>Recent content in Life on ZhiBiao&#39;s Note</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lvzbOne.github.io/tags/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自如电费均摊问题</title>
-      <link>http://localhost:1313/post/2024-03-05-zirujuntan/</link>
+      <link>https://lvzbOne.github.io/post/2024-03-05-zirujuntan/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2024-03-05-zirujuntan/</guid>
+      <guid>https://lvzbOne.github.io/post/2024-03-05-zirujuntan/</guid>
       <description>3月份搬了次家，嫌麻烦租了自如，第一个月的电费账单出来了，由于我是中途搬进去的，于是乎就好奇他会如何计算均摊，这个月电费账单出来了，算了下发</description>
     </item>
   </channel>

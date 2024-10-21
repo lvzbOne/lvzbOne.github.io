@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Private on ZhiBiao&#39;s Note</title>
-    <link>http://localhost:1313/tags/private/</link>
+    <link>https://lvzbOne.github.io/tags/private/</link>
     <description>Recent content in Private on ZhiBiao&#39;s Note</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/private/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lvzbOne.github.io/tags/private/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>时间管理的原则</title>
-      <link>http://localhost:1313/2024/10/21/effective-work-rule/</link>
+      <link>https://lvzbOne.github.io/2024/10/21/effective-work-rule/</link>
       <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/2024/10/21/effective-work-rule/</guid>
+      <guid>https://lvzbOne.github.io/2024/10/21/effective-work-rule/</guid>
       <description>由于自己的时间管理观念一直不是很好，最近刚好在图书馆里，偶然就去找找这类的书籍看看，发现了一本看完相见恨晚的书。这里记录下部分精华内容。 时间</description>
     </item>
   </channel>
